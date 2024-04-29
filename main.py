@@ -8,12 +8,25 @@ import src.test_chat2 as event_chat
 
 from pydantic import BaseModel
 
+from fastapi.middleware.cors import CORSMiddleware
+
+
 
 class Chat(BaseModel):
     msg: str
 
 
 app = FastAPI()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # app.include_router(chat.router)
 
