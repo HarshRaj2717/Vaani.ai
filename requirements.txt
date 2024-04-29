@@ -1,4 +1,5 @@
 crewai
+groq
 pydantic
 crewai-tools
 langgraph
@@ -9,3 +10,4 @@ uvicorn[standard]
 pymongo[srv]
 python-dotenv
 selenium
+requests

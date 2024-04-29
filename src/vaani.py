@@ -126,6 +126,10 @@ def outreach(target: OutreachTarget, send_mail: bool = False) -> str:
     return MESSAGE_BODY
 
 
+# def chat(msg: str) -> str:
+#     ...
+
+
 # def linkedin_outreach(domain: str, event: str):
 #     ...
 

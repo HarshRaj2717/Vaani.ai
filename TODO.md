@@ -109,7 +109,7 @@
 
 > just modify the inputs in _TeamSync-AI-crews_
 
-## Instagram posts creation
+## ~~Instagram~~ -> Linkedin posts creation
 
 ### (Event) New speaker onboarded
 

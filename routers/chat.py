@@ -7,14 +7,7 @@ from pydantic import BaseModel
 
 router = APIRouter()
 
-@router.get("/students", response_model=dict)
-async def list_students(
-    country: Optional[str] = Query(None), age: Optional[int] = Query(None)
-):
-    filter = {}
-    if country:
-        filter["address.country"] = {"$regex": f"^{country}$", "$options": "i"}
-    if age:
-        filter["age"] = {"$gte": age}
-    students = list_serialize(collection.find(filter))
-    return {"data": students}
+
+@router.post("/chat", response_model=dict)
+async def chatapi():
+    return {}
