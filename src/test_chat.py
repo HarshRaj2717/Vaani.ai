@@ -75,7 +75,7 @@ def main(id: str, msg: str) -> str:
 
 Hope you're doing great! 😊
 
-Just wanted to give you a heads-up about this cool event coming up. It's all about AI, and I immediately thought of you given your expertise in AI.
+Just wanted to give you a heads-up about this cool event coming up. It's all about Web3, and I immediately thought of you given your expertise in Web3.
 
 Would love to have you join the event as a speaker! Let me know if it piques your interest. It's gonna be fun and insightful, and your perspective would be awesome to have."""
                 ),
